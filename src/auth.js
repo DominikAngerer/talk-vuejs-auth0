@@ -1,17 +1,17 @@
 import auth0 from "auth0-js";
 import Vue from "vue";
 
-let your_auth0_domain = "";
-let your_auth0_client_id = "";
+let your_auth0_domain = "000.eu.auth0.com";
+let your_auth0_client_id = "FN4IuyDIblLjh28FhU36ItirC2wdapJW";
 
 // exchange the object with your own from the setup step above.
 let webAuth = new auth0.WebAuth({
   domain: your_auth0_domain,
   clientID: your_auth0_client_id,
   // make sure this line is contains the port: 8080
-  redirectUri: "https://yvyv43qrlz.codesandbox.io/callback",
+  redirectUri: `https://jznjw56n79.codesandbox.io/callback`,
   // we will use the api/v2/ to access the user information as payload
-  audience: "https://" + your_auth0_domain + "/api/v2/",
+  audience: `https://${your_auth0_domain}/api/v2/`,
   responseType: "token id_token",
   scope: "openid profile"
 });
