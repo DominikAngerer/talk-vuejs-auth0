@@ -2,9 +2,9 @@
 
 > A Vue.js project to present Auth0 + Vue.js
 
-Slides: https://a.storyblok.com/f/39898/x/9f4e8754a0/vuejsauth0.pdf
-Article: https://www.storyblok.com/tp/how-to-auth0-vuejs-authentication
-Recording: https://www.youtube.com/watch?v=6fCz6cq7fBM&t=44s
+Slides: https://a.storyblok.com/f/39898/x/9f4e8754a0/vuejsauth0.pdf    
+Article: https://www.storyblok.com/tp/how-to-auth0-vuejs-authentication    
+Recording: https://www.youtube.com/watch?v=6fCz6cq7fBM&t=44s   
 
 ## Build Setup
 
